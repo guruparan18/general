@@ -3,6 +3,7 @@ import sys
 primes = [2]
 
 
+#  Function loops through already known prime and upto to root of the number
 def is_prime(num: int) -> bool:
     for prime in primes:
         if prime > num ** (1 / 2):
